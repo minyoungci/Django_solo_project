@@ -10,7 +10,7 @@ from django_resized import ResizedImageField
 
 
 class Category(models.Model):
-    title = models.CharField(null=True, black=True, max_length=200)
+    title = models.CharField(null=True, blank=True, max_length=200)
 
     # Utility Variable
 
