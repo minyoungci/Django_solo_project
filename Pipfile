@@ -7,6 +7,11 @@ name = "pypi"
 django = "*"
 black = "*"
 flake8 = "*"
+requests = "*"
+pillow = "*"
+django-crispy-forms = "*"
+html2text = "*"
+django-resized = "*"
 
 [dev-packages]
 
